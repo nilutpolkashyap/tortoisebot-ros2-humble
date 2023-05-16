@@ -22,7 +22,7 @@
 # 1. Installation
 ## 1.1 Required Dependences: 
 ```
-sudo apt install ros-galactic-joint-state-publisher ros-galactic-robot-state-publisher ros-galactic-cartographer ros-galactic-cartographer-ros ros-galactic-map ros-galactic-gazebo-plugins ros-galactic-teleop-twist-keyboard  ros-galactic-teleop-twist-joy ros-galactic-xacro ros-galactic-nav2* ros-galactic-urdf ros-galactic-rviz
+sudo apt install ros-humble-joint-state-publisher ros-humble-robot-state-publisher ros-humble-cartographer ros-humble-cartographer-ros ros-humble-gazebo-plugins ros-humble-teleop-twist-keyboard  ros-humble-teleop-twist-joy ros-humble-xacro ros-humble-nav2* ros-humble-urdf ros-humble-rviz
 
 ```
 ```
@@ -32,7 +32,7 @@ colcon build
 ## 1.2 Clone this repo 
 Make sure you clone the repo in your robot and your remote PC 
 ```
-git clone -b ros2-galactic --recursive https://github.com/rigbetellabs/tortoisebot.git
+git clone -b ros2-humble --recursive https://github.com/rigbetellabs/tortoisebot.git
 ```
 ```
 cd ~/your workscpace
