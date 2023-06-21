@@ -32,7 +32,7 @@ colcon build
 ## 1.2 Clone this repo 
 Make sure you clone the repo in your robot and your remote PC 
 ```
-git clone -b ros2-humble --recursive https://github.com/rigbetellabs/tortoisebot.git
+git clone -b ros2-humble --recursive https://github.com/nilutpolkashyap/tortoisebot-ros2-humble
 ```
 ```
 cd ~/your workscpace
